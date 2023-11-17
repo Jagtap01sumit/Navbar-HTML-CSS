@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- this meta is very important : if the logo and the ul element are close then its make push the ul element down. if we try to do this using div or flex then it not perfect because because of flex the icon is view at top and ul elemnt is view at down so meta is perfect for this <<<<<meta name="viewport" content="width=device-width,initial-scale=1.0">>>>>-->
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <!-- this id is used for the label (for) check -->
+        <label for="check" id="checkbtn"><i class="fa fa-bars"></i></label>
+        <label class="logo">Navbar</label>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li>
+                <a href="#">Contact us</a>
+            </li>
+            <li href="#">
+                <a href="#">Other</a>
+            </li>
+        </ul>
+
+    </nav>
+</body>
+
+</html>
